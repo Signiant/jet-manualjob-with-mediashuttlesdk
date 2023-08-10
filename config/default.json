@@ -1,0 +1,32 @@
+{
+  "mediaShuttleSDKConfig": {
+    "username": "username",
+    "password": "password",
+    "accountId": "accountId",
+    "serviceId": "serviceId",
+    "portalId": "",
+    "portalName": "",
+    "portalURL": ""
+  },
+  "jetManualJobConfig": {
+    "clientId": "client_id",
+    "clientSecret": "client_secret",
+    "access_token": "",
+    "jobId": "",
+    "jobName": "Manual Job (via Jet Manual Job App)",
+    "sourceStorageProfileId":  "",
+    "destinationStorageProfileId" : ""
+  },
+  "filters": {
+    "inclusions": {
+      "relativeFilePath": "",
+      "lastModifiedBefore": ""
+    },
+    "exclusions": {
+      "relativeFilePath": ""
+    }
+  },
+  "platformApiEndpoint":"https://platform-api-service.services.cloud.signiant.com",
+  "relativeFolderBrowsePath": "",
+  "fetchSourceFilesViaMediaShuttleSDK" : true
+}

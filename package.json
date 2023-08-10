@@ -1,0 +1,23 @@
+{
+  "name": "jet-api-manual-job-source-files",
+  "version": "1.0.0",
+  "description": "Sample app to get list of source files for Jet manual job using Media Shuttle SDK",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@signiant/media-shuttle-sdk": "^1.0.1",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "config": "^3.3.9",
+    "esm": "^3.2.25",
+    "express": "^4.18.2"
+  },
+  "engines": {
+  "node": ">=18.0.0",
+  "npm": ">=8.6.0"
+}
+}
